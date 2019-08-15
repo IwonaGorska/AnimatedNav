@@ -1,0 +1,43 @@
+<div class="wrapper active-element">
+	<header class="main-header">
+	    <meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="AnimatedNav.css">
+		<nav>
+			<div class="masthead active-element">
+				<h1><a href="#0">DEPECHE MODE</a></h1>
+				<div id="menu-toggle" class="menu-toggle active-element">
+					<div class="one"></div>
+					<div class="two"></div>
+					<div class="three"></div>
+				</div>
+			</div>
+			<div class="main-nav-list active-element">
+				<ul>
+					<li><a href="#0" id = "li1" class="active-link" onclick = "changeScreen(1)">About</a></li>
+					<li><a href="#1" id = "li2" onclick = "changeScreen(2)">BC</a></li>
+					<li><a href="#3" id = "li3" onclick = "changeScreen(3)">SOFAD</a></li>
+					<li><a href="#4" id = "li4" onclick = "changeScreen(4)">PTA</a></li>
+				</ul>
+			</div>
+			<!-- The 'hash' (#) in an href attribute denotes a page fragment. #myfragment = fragment identifier that goes hand in hand with id="myfragment".
+			When it is used by itself, it denotes an empty fragment, which is the page itself. It's the way many developers create anchors that don't link 
+			to anything. In usability terms, it can cause a jump in the page (since it scrolls to the top of the document) and is actually discouraged. 
+			Nowadays we see less of this sort of use since most pages are driven by some form of DOM script.The most typical use of this syntax is in example 
+			code where there is no specific URL but the developer wants the tag to behave like a normal anchor element (so that pseudo selectors can be hooked).
+			When we have events registered, we can remove the href attribute altogether, but leave the anchor tag and other attributes it may carry, such as title, 
+			id, etc. The script can listen for events on these elements, without having to rely on HTML behavior (of a normal href link). CODECADEMY.COM-->
+		</nav>
+	</header>
+	<main class="main-contents">
+		<h2 id = "h2-content">About</h2>
+			<p id = "p-content">
+			Depeche Mode - a British musical group from the circle of electronic music and alternative rock, which was founded in 1980 in Basildon in 
+			Great Britain. Currently members of the band are Dave Gahan (vocals), Andrew Fletcher (keyboards, bass) and Martin Gore (keyboards, electric 
+			guitar and vocals). All three have belonged to the group since its inception. The group's name was based on inspiration from a French fashion 
+			magazine, suggested by Gahan. The creation of Depeche Mode was preceded by the composition Composition of Sound group. In 2006 the band won the M
+			TV Europe Music Awards in the category "best band". In 1990 the group received the Rockbjörnen award in the category "Best Foreign Band"
+			</p>
+	</main>
+	<footer class="main-footer active-element"><span class="copyright">&copy;IWONADMGORSKA</span></footer>
+	<script type="text/javascript" src="AnimatedNav.js"></script>
+</div>
